@@ -1,0 +1,591 @@
+{
+  "CallbackList": {
+    "_type": "glue.external.echo.list.CallbackList",
+    "values": [
+      "ScatterLayerState"
+    ]
+  },
+  "CallbackList_0": {
+    "_type": "glue.external.echo.list.CallbackList",
+    "values": [
+      "ScatterLayerState_0"
+    ]
+  },
+  "CallbackList_1": {
+    "_type": "glue.external.echo.list.CallbackList",
+    "values": [
+      "ScatterLayerState_1"
+    ]
+  },
+  "CategoricalComponent": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 2
+  },
+  "CategoricalComponent_0": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 7
+  },
+  "Component": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 3
+  },
+  "Component_0": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 4
+  },
+  "Component_1": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 5
+  },
+  "Component_2": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 6
+  },
+  "Component_3": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 8
+  },
+  "Component_4": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 9
+  },
+  "Component_5": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 10
+  },
+  "Component_6": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 11
+  },
+  "Component_7": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 12
+  },
+  "Component_8": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 13
+  },
+  "CoordinateComponent": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "CoordinateComponent_0": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": true
+  },
+  "Coordinates": {
+    "_type": "glue.core.coordinates.Coordinates"
+  },
+  "DataCollection": {
+    "_protocol": 4,
+    "_type": "glue.core.data_collection.DataCollection",
+    "cids": [
+      "Pixel Axis 0 [x]",
+      "World 0",
+      "Date",
+      "FR Tot Cas Confirm\u00e9s",
+      "FR Tot D\u00e9c\u00e8s",
+      "FR Tot Gu\u00e9ris",
+      "FR Tot Hospitalis\u00e9s",
+      "Source",
+      "WW Tot Cas Confirm\u00e9s",
+      "WW Tot D\u00e9c\u00e8s",
+      "FR Nvx cas confirm\u00e9s",
+      "FR Nvx D\u00e9c\u00e8s",
+      "FR Nvx Gu\u00e9ris",
+      "FR Nvx Hospitalis\u00e9s"
+    ],
+    "components": [
+      "CoordinateComponent",
+      "CoordinateComponent_0",
+      "CategoricalComponent",
+      "Component",
+      "Component_0",
+      "Component_1",
+      "Component_2",
+      "CategoricalComponent_0",
+      "Component_3",
+      "Component_4",
+      "Component_5",
+      "Component_6",
+      "Component_7",
+      "Component_8"
+    ],
+    "data": [
+      "covid19"
+    ],
+    "groups": [],
+    "links": [],
+    "subset_group_count": 0
+  },
+  "Date": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Date"
+  },
+  "FR Nvx D\u00e9c\u00e8s": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FR Nvx D\u00e9c\u00e8s"
+  },
+  "FR Nvx Gu\u00e9ris": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FR Nvx Gu\u00e9ris"
+  },
+  "FR Nvx Hospitalis\u00e9s": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FR Nvx Hospitalis\u00e9s"
+  },
+  "FR Nvx cas confirm\u00e9s": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FR Nvx cas confirm\u00e9s"
+  },
+  "FR Tot Cas Confirm\u00e9s": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FR Tot Cas Confirm\u00e9s"
+  },
+  "FR Tot D\u00e9c\u00e8s": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FR Tot D\u00e9c\u00e8s"
+  },
+  "FR Tot Gu\u00e9ris": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FR Tot Gu\u00e9ris"
+  },
+  "FR Tot Hospitalis\u00e9s": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FR Tot Hospitalis\u00e9s"
+  },
+  "LinearSegmentedColormap": {
+    "_type": "matplotlib.colors.LinearSegmentedColormap",
+    "cmap": "gray"
+  },
+  "LoadLog": {
+    "_protocol": 1,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "kwargs": [
+      []
+    ],
+    "path": "covid19.csv"
+  },
+  "Pixel Axis 0 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [x]"
+  },
+  "ScatterLayerState": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "FR Tot Cas Confirm\u00e9s",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 44550.0,
+      "cmap_vmin": 3.0,
+      "color": "st__#595959",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "covid19",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 3,
+      "size_att": "FR Tot Cas Confirm\u00e9s",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 44550.0,
+      "size_vmin": 3.0,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "FR Tot Cas Confirm\u00e9s",
+      "vy_att": "FR Tot Cas Confirm\u00e9s",
+      "xerr_att": "FR Tot Cas Confirm\u00e9s",
+      "xerr_visible": false,
+      "yerr_att": "FR Tot Cas Confirm\u00e9s",
+      "yerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "ScatterLayerState_0": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "FR Tot Cas Confirm\u00e9s",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 44550.0,
+      "cmap_vmin": 3.0,
+      "color": "st__#595959",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "covid19",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 3,
+      "size_att": "FR Tot Cas Confirm\u00e9s",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 44550.0,
+      "size_vmin": 3.0,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "FR Tot Cas Confirm\u00e9s",
+      "vy_att": "FR Tot Cas Confirm\u00e9s",
+      "xerr_att": "FR Tot Cas Confirm\u00e9s",
+      "xerr_visible": false,
+      "yerr_att": "FR Tot Cas Confirm\u00e9s",
+      "yerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "ScatterLayerState_1": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "FR Tot Cas Confirm\u00e9s",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 44550.0,
+      "cmap_vmin": 3.0,
+      "color": "st__#595959",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "covid19",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 3,
+      "size_att": "FR Tot Cas Confirm\u00e9s",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 44550.0,
+      "size_vmin": 3.0,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "FR Tot Cas Confirm\u00e9s",
+      "vy_att": "FR Tot Cas Confirm\u00e9s",
+      "xerr_att": "FR Tot Cas Confirm\u00e9s",
+      "xerr_visible": false,
+      "yerr_att": "FR Tot Cas Confirm\u00e9s",
+      "yerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "ScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.scatter.qt.data_viewer.ScatterViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState"
+      }
+    ],
+    "pos": [
+      8,
+      7
+    ],
+    "session": "Session",
+    "size": [
+      600,
+      400
+    ],
+    "state": {
+      "values": {
+        "aspect": "st__auto",
+        "dpi": 71.30820648960312,
+        "layers": "CallbackList",
+        "show_axes": true,
+        "x_att": "Date",
+        "x_axislabel": "st__Date",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 70.22,
+        "x_min": -3.22,
+        "x_ticklabel_size": 8,
+        "y_att": "FR Tot Cas Confirm\u00e9s",
+        "y_axislabel": "st__FR Tot Cas Confirm\u00e9s",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 46331.88,
+        "y_min": -1778.88,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "ScatterViewer_0": {
+    "_protocol": 1,
+    "_type": "glue.viewers.scatter.qt.data_viewer.ScatterViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_0"
+      }
+    ],
+    "pos": [
+      616,
+      6
+    ],
+    "session": "Session",
+    "size": [
+      600,
+      400
+    ],
+    "state": {
+      "values": {
+        "aspect": "st__auto",
+        "dpi": 71.30820648960312,
+        "layers": "CallbackList_0",
+        "show_axes": true,
+        "x_att": "Date",
+        "x_axislabel": "st__Date",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 70.22,
+        "x_min": -3.22,
+        "x_ticklabel_size": 8,
+        "y_att": "FR Nvx D\u00e9c\u00e8s",
+        "y_axislabel": "st__FR Nvx D\u00e9c\u00e8s",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 434.72,
+        "y_min": -16.72,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "ScatterViewer_1": {
+    "_protocol": 1,
+    "_type": "glue.viewers.scatter.qt.data_viewer.ScatterViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_1"
+      }
+    ],
+    "pos": [
+      7,
+      410
+    ],
+    "session": "Session",
+    "size": [
+      600,
+      400
+    ],
+    "state": {
+      "values": {
+        "aspect": "st__auto",
+        "dpi": 71.30820648960312,
+        "layers": "CallbackList_1",
+        "show_axes": true,
+        "x_att": "Date",
+        "x_axislabel": "st__Date",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 70.22,
+        "x_min": -3.22,
+        "x_ticklabel_size": 8,
+        "y_att": "FR Nvx cas confirm\u00e9s",
+        "y_axislabel": "st__FR Nvx cas confirm\u00e9s",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 4795.44,
+        "y_min": -184.44,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Session": {
+    "_type": "glue.core.session.Session"
+  },
+  "Source": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Source"
+  },
+  "WW Tot Cas Confirm\u00e9s": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "WW Tot Cas Confirm\u00e9s"
+  },
+  "WW Tot D\u00e9c\u00e8s": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "WW Tot D\u00e9c\u00e8s"
+  },
+  "World 0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "World 0"
+  },
+  "__main__": {
+    "_type": "glue.app.qt.application.GlueApplication",
+    "data": "DataCollection",
+    "plugins": [
+      "glue.viewers.profile.qt",
+      "glue.core.data_exporters",
+      "glue.viewers.scatter.qt",
+      "glue.viewers.histogram.qt",
+      "glue.plugins.coordinate_helpers",
+      "glue.viewers.image.qt",
+      "glue.plugins.tools.pv_slicer",
+      "glue.io.formats.fits",
+      "glue.plugins.dendro_viewer.qt",
+      "glue.plugins.export_d3po",
+      "glue.plugins.wcs_autolinking",
+      "glue.viewers.table.qt",
+      "glue.plugins.dendro_viewer",
+      "glue.plugins.tools",
+      "glue.plugins.data_factories.spectral_cube"
+    ],
+    "session": "Session",
+    "tab_names": [
+      "Tab 1"
+    ],
+    "viewers": [
+      [
+        "ScatterViewer",
+        "ScatterViewer_0",
+        "ScatterViewer_1"
+      ]
+    ]
+  },
+  "covid19": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [x]",
+        "CoordinateComponent"
+      ],
+      [
+        "World 0",
+        "CoordinateComponent_0"
+      ],
+      [
+        "Date",
+        "CategoricalComponent"
+      ],
+      [
+        "FR Tot Cas Confirm\u00e9s",
+        "Component"
+      ],
+      [
+        "FR Tot D\u00e9c\u00e8s",
+        "Component_0"
+      ],
+      [
+        "FR Tot Gu\u00e9ris",
+        "Component_1"
+      ],
+      [
+        "FR Tot Hospitalis\u00e9s",
+        "Component_2"
+      ],
+      [
+        "Source",
+        "CategoricalComponent_0"
+      ],
+      [
+        "WW Tot Cas Confirm\u00e9s",
+        "Component_3"
+      ],
+      [
+        "WW Tot D\u00e9c\u00e8s",
+        "Component_4"
+      ],
+      [
+        "FR Nvx cas confirm\u00e9s",
+        "Component_5"
+      ],
+      [
+        "FR Nvx D\u00e9c\u00e8s",
+        "Component_6"
+      ],
+      [
+        "FR Nvx Gu\u00e9ris",
+        "Component_7"
+      ],
+      [
+        "FR Nvx Hospitalis\u00e9s",
+        "Component_8"
+      ]
+    ],
+    "coords": "Coordinates",
+    "label": "covid19",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {}
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [x]",
+      "World 0",
+      "Date",
+      "FR Tot Cas Confirm\u00e9s",
+      "FR Tot D\u00e9c\u00e8s",
+      "FR Tot Gu\u00e9ris",
+      "FR Tot Hospitalis\u00e9s",
+      "Source",
+      "WW Tot Cas Confirm\u00e9s",
+      "WW Tot D\u00e9c\u00e8s",
+      "FR Nvx cas confirm\u00e9s",
+      "FR Nvx D\u00e9c\u00e8s",
+      "FR Nvx Gu\u00e9ris",
+      "FR Nvx Hospitalis\u00e9s"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.8,
+      "color": "#595959",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 3
+    },
+    "subsets": [],
+    "uuid": "a7fee4fe-859d-4f3d-b31c-833bac87cf1d"
+  }
+}
