@@ -79,7 +79,7 @@ def RecupereDonneesSantePubliqueFrance():
     print ('--> Fin du process')
     return yamls
 
-# RECUPERATION DONNEES SANTE PUBLIQUE FRANCE
+# RECUPERATION DONNEES MINISTERE SANTE
 def RecupereDonneesMinistereSante(yamls):
     i=1
     sDateParcours = sDateDebut
