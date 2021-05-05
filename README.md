@@ -7,24 +7,24 @@ This repository contains all sources and code used in the web site aishelf.org
 # Contenu/Content
 ##  audio 
 Gestion des données audio / audio data management  
-*  speech_recog.ipynb : https://www.datacorner.fr/audio-recog/  (or in english http://aishelf.org/audio-recog/)
+*  speech_recog.ipynb : [see here](https://www.datacorner.fr/en/audio-recog/) 
 
 ## Auto ML
 Solution d'auto ML / AUto-ML solutions
-* /auto-ml/autogluon/* : https://www.datacorner.fr/autogluon/ (or in english http://aishelf.org/autogluon/)
+* /auto-ml/autogluon/* : [see here]https://www.datacorner.fr/en/autogluon/) 
 
 ## computer-vision 
 Vision par ordinateur / Computer vision
-*  deskew: ALl about deskeing an image with Python
-*  facial-recognition: Face detection using OpenCV & Python
-*  image-processing: several notebook on how to manage images
+*  deskew: All about deskeing an image with Python ([see here](https://www.datacorner.fr/en/deskew/)
+*  facial-recognition: Face detection using OpenCV & Python [from an Image](https://www.datacorner.fr/en/reco-faciale-opencv/) / from a video [from an Image](https://www.datacorner.fr/reco-faciale-opencv-2/)
+*  image-processing: several notebook on how to manage images ([see here](https://www.datacorner.fr/en/image-processing/)
 *  multipledocsplit: Managing & separationg several documents in one page (on progress)
 *  opencv: Tutorials & notebooks on OpenCV
 *  shape-recognition: Shape detection using OpenCV
 *  signature
 *  tessFactures: Managing invoices
-*  tesseract: tutos around Tesseract usage
-*  yolo: Implementing YOLO deep NN
+*  tesseract: tutos around Tesseract usage [Basics](https://www.datacorner.fr/en/tesseract/) [Advanced](https://www.datacorner.fr/en/tesseract-adv/)
+*  yolo: Implementing YOLO deep NN [See here](https://www.datacorner.fr/en/yolo/
 
 ## data-access
 Accès aux données, connecteurs, etc. / Data connectivity
