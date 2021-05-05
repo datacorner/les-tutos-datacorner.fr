@@ -15,25 +15,25 @@ Solution d'auto ML / AUto-ML solutions
 
 ## computer-vision 
 Vision par ordinateur / Computer vision
-*  deskew: All about deskeing an image with Python ([see here](https://www.datacorner.fr/en/deskew/)
-*  facial-recognition: Face detection using OpenCV & Python [from an Image](https://www.datacorner.fr/en/reco-faciale-opencv/) / from a video [from an Image](https://www.datacorner.fr/reco-faciale-opencv-2/)
-*  image-processing: several notebook on how to manage images ([see here](https://www.datacorner.fr/en/image-processing/)
+*  deskew: All about deskeing an image with Python [see here](https://www.datacorner.fr/en/deskew/)
+*  facial-recognition: Face detection using OpenCV & Python [from an Image](https://www.datacorner.fr/en/reco-faciale-opencv/) [from a video](https://www.datacorner.fr/reco-faciale-opencv-2/)
+*  image-processing: several notebook on how to manage images [see here](https://www.datacorner.fr/en/image-processing/)
 *  multipledocsplit: Managing & separationg several documents in one page (on progress)
 *  opencv: Tutorials & notebooks on OpenCV
 *  shape-recognition: Shape detection using OpenCV
 *  signature
-*  tessFactures: Managing invoices
-*  tesseract: tutos around Tesseract usage [Basics](https://www.datacorner.fr/en/tesseract/) [Advanced](https://www.datacorner.fr/en/tesseract-adv/)
-*  yolo: Implementing YOLO deep NN [See here](https://www.datacorner.fr/en/yolo/
+*  tessFactures: Managing invoices [see here](https://www.datacorner.fr/en/invoice-ws/)
+*  tesseract: tutos around Tesseract usage [Basics](https://www.datacorner.fr/en/tesseract/),[Advanced](https://www.datacorner.fr/en/tesseract-adv/)
+*  yolo: Implementing YOLO deep NN [See here](https://www.datacorner.fr/en/yolo/)
 
 ## data-access
 Accès aux données, connecteurs, etc. / Data connectivity
-*  YAML: YAML connectivity
-*  hadoop: Connect to Hadoop
-*  pandas: Pandas usage and tutos
-*  pdf: pdf reading
-*  sqlite: how to use SQL in a file
-*  webscraping: Scrapping your web pages
+*  YAML: YAML connectivity [see here](https://www.datacorner.fr/en/covid-19/)
+*  hadoop: Connect to Hadoop [see here](https://www.datacorner.fr/en/hive-spark-python/)
+*  pandas: Pandas usage and tutos [Basics](https://www.datacorner.fr/en/pandas-1/),[Advanced](https://www.datacorner.fr/en/pandas-2/)
+*  pdf: pdf reading [see here](https://www.datacorner.fr/en/pdf/)
+*  sqlite: how to use SQL in a file [see here](https://www.datacorner.fr/en/sqlite/)
+*  webscraping: Scrapping your web pages [see here](https://www.datacorner.fr/en/webscrapython/)
 
 ## data-analysis 
 Analyse de données / Data Analysis & Data profiling
