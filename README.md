@@ -17,7 +17,7 @@ Solution d'auto ML / AUto-ML solutions
 ## computer-vision 
 Vision par ordinateur / Computer vision
 *  **deskew** All about deskeing an image with Python [see here](https://www.datacorner.fr/en/deskew/)
-*  **facial-recognition** Face detection using OpenCV & Python [from an Image](https://www.datacorner.fr/en/reco-faciale-opencv/) [from a video](https://www.datacorner.fr/reco-faciale-opencv-2/)
+*  **facial-recognition** Face detection using OpenCV & Python [from an Image](https://www.datacorner.fr/en/reco-faciale-opencv/), [from a video](https://www.datacorner.fr/reco-faciale-opencv-2/)
 *  **image-processing** several notebook on how to manage images [see here](https://www.datacorner.fr/en/image-processing/)
 *  **multipledocsplit** Managing & separationg several documents in one page [IN PROGRESS]
 *  **opencv** This folder contains various data that is used by cv libraries and/or demo applications (Coming from OpenCV).
@@ -58,30 +58,30 @@ Sources de données utilisées / Data sources used in the web site
 
 ## deep-learning 
 Deep learning
-*  fruit: classify fruit with CNN
-*  titanic: first keras/tensorflow try with titanic data
+*  **fruit** classify fruit with CNN implementation [see here](https://www.datacorner.fr/en/vgg-transfer-learning/)
+*  **titanic** first keras/tensorflow try with titanic data [see here](https://www.datacorner.fr/en/keras-titanic/)
 
 ## modeling 
 Modélisation Machine Learning / Machine Learning Modelization
-*  catboost : catboost algorithm usage
-*  gradient-descent: understand gradient descent and SGD
-*  linear-regression: linear regression
-*  logistic-regression: logistic regression
-*  markov: Markov chain very simple examples
-*  persistence: save and load you ML models
-*  scoring: evaluate your ML Models
-*  xgboost: XGBoost algorithm usage
+*  **catboost** catboost algorithm usage [see here](https://www.datacorner.fr/en/catboost/)
+*  **gradient-descent** understand gradient descent and SGD [Principle](https://www.datacorner.fr/en/gradient-descent/), [SGD & learning rate](https://www.datacorner.fr/en/sgd-learning-rate/)
+*  **linear-regression** linear regression [see here](https://www.datacorner.fr/en/rg/)
+*  **logistic-regression** logistic regression [see here](https://www.datacorner.fr/en/logit/)
+*  **markov** Markov chain very simple examples [see here](https://www.datacorner.fr/en/markov/)
+*  **persistence** save and load you ML models [see here](https://www.datacorner.fr/en/model-persistence/)
+*  **scoring** evaluate your ML Models [see here](https://www.datacorner.fr/en/model-class-evaluatation/)
+*  **xgboost** XGBoost algorithm usage [see here](https://www.datacorner.fr/en/xgboost/)
 
 ## publish 
 Publication de données / Data publication
-*  eve: eve usage
-*  flask: deploy your Python as a web service 
+*  **eve** eve usage
+*  **flask** deploy your Python as a web service [see here](https://www.datacorner.fr/en/flask/)
 
 ## string-management 
 Gestion des données textuelles / Text management
-*  basics: basics stuff around text management
-*  nlp: Spacy, NLTKand other stuff to do NLP
-*  sentiment-analysis: simple example on how to implement sentiment analysis
+*  **basics** basics stuff around text management [see here](https://www.datacorner.fr/en/strings/)
+*  **nlp** Spacy, NLTKand other stuff to do NLP [NLTK](https://www.datacorner.fr/en/nltk/), [spacy](https://www.datacorner.fr/enspacy/)
+*  **sentiment-analysis** simple example on how to implement sentiment analysis
 
 ## uses-cases 
 etudes de cas / Uses cases
