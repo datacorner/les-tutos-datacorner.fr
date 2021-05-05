@@ -12,7 +12,7 @@ Gestion des données audio / audio data management
 
 ## Auto ML
 Solution d'auto ML / AUto-ML solutions
-* **/auto-ml/autogluon/** [see here]https://www.datacorner.fr/en/autogluon/) 
+* **/auto-ml/autogluon/** [see here](https://www.datacorner.fr/en/autogluon/) 
 
 ## computer-vision 
 Vision par ordinateur / Computer vision
