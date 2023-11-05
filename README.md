@@ -10,6 +10,10 @@ aishelf.org is an english (translated) mirror of datacorner.fr, to jump from dat
 Gestion des données audio / audio data management  
 *  **speech_recog.ipynb** [see here](https://www.datacorner.fr/en/audio-recog/) 
 
+## LLM
+Some notebooks on LLM plays and quick tutos
+* **Take your first steps with an LLM** [see here](https://datacorner.fr/llm-hf-lc/)
+
 ## Auto ML
 Solution d'auto ML / AUto-ML solutions
 * **/auto-ml/autogluon/** [see here](https://www.datacorner.fr/en/autogluon/) 
